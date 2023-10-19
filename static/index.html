@@ -2,10 +2,7 @@
 <html lang="de">
   <head>
     <title>Testbar</title>
-    <meta
-      name="description"
-      content="Testseite für eine fiktive Bar"
-    />
+    <meta name="description" content="Testseite für eine fiktive Bar" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -16,6 +13,7 @@
     />
     <link rel="stylesheet" href="./index.css" />
     <script type="module" src="./deps.js"></script>
+    <script type="module" src="./script.js"></script>
   </head>
   <body>
     <header id="hero">
@@ -26,22 +24,239 @@
               <h2 slot="captcha">Das Leben geniessen</h2>
               <h1 slot="title">Testbar</h1>
             </basic-header>
-            <basic-body right-pad><p>Eine Testseite für eine fiktive Bar!</p></basic-body>
+            <basic-body right-pad
+              ><p>Eine Testseite für eine fiktive Bar!</p></basic-body
+            >
             <basic-footer>
-              <stylish-anchor has-arrow href="./tour.htm">Tour</stylish-anchor>
-			  <stylish-anchor has-arrow href="/">Termine</stylish-anchor>
-			  <stylish-anchor has-arrow href="/">Getränke & Essen</stylish-anchor>
-              <stylish-anchor has-arrow transparent href="/"
-                >Kontakt</stylish-anchor
-              >
+              <stylish-anchor has-anchor>Bild ändern</stylish-anchor>
             </basic-footer>
           </div>
-          <shadow-image src="./images/vicemonkeyss.png"></shadow-image>
+          <shadow-image src="./images/vicemonkeys.png"></shadow-image>
         </flex-row>
       </section-container>
     </header>
     <main>
-      <section id="vorstellung"></section>
+      <section id="vorstellung">
+        <section-container>
+          <flex-row media-query="1024px">
+            <flex-row>
+              <variant-detail right-pad>
+                <img
+                  slot="icon"
+                  src="https://dev.zaubrik.com/assets@v0.0.4/icons/outline/light-bulb.svg"
+                  alt=""
+                />
+                <h1 slot="title">Kreativer Austausch</h1>
+                <div slot="body">
+                  <p>
+                    Beginne zu sehen, wie Deine Idee Form annimmt. Erhalte
+                    unsere groben Entwürfe (Mockups) und sage uns, wie sie Dir
+                    gefällen.
+                  </p>
+                </div>
+                <stylish-anchor
+                  slot="anchor"
+                  href="/leistungen/service/"
+                  has-arrow
+                  is-transparent
+                  >Mehr erfahren</stylish-anchor
+                >
+              </variant-detail>
+              <variant-detail right-pad>
+                <img
+                  slot="icon"
+                  src="https://dev.zaubrik.com/assets@v0.0.4/icons/outline/light-bulb.svg"
+                  alt=""
+                />
+                <h1 slot="title">Kreativer Austausch</h1>
+                <div slot="body">
+                  <p>
+                    Beginne zu sehen, wie Deine Idee Form annimmt. Erhalte
+                    unsere groben Entwürfe (Mockups) und sage uns, wie sie Dir
+                    gefällen.
+                  </p>
+                </div>
+                <stylish-anchor
+                  slot="anchor"
+                  href="/leistungen/service/"
+                  has-arrow
+                  is-transparent
+                  >Mehr erfahren</stylish-anchor
+                >
+              </variant-detail>
+            </flex-row>
+            <flex-row>
+              <variant-detail right-pad>
+                <img
+                  slot="icon"
+                  src="https://dev.zaubrik.com/assets@v0.0.4/icons/outline/light-bulb.svg"
+                  alt=""
+                />
+                <h1 slot="title">Kreativer Austausch</h1>
+                <div slot="body">
+                  <p>
+                    Beginne zu sehen, wie Deine Idee Form annimmt. Erhalte
+                    unsere groben Entwürfe (Mockups) und sage uns, wie sie Dir
+                    gefällen.
+                  </p>
+                </div>
+                <stylish-anchor
+                  slot="anchor"
+                  href="/leistungen/service/"
+                  has-arrow
+                  is-transparent
+                  >Mehr erfahren</stylish-anchor
+                >
+              </variant-detail>
+              <variant-detail right-pad>
+                <img
+                  slot="icon"
+                  src="https://dev.zaubrik.com/assets@v0.0.4/icons/outline/light-bulb.svg"
+                  alt=""
+                />
+                <h1 slot="title">Kreativer Austausch</h1>
+                <div slot="body">
+                  <p>
+                    Beginne zu sehen, wie Deine Idee Form annimmt. Erhalte
+                    unsere groben Entwürfe (Mockups) und sage uns, wie sie Dir
+                    gefällen.
+                  </p>
+                </div>
+                <stylish-anchor
+                  slot="anchor"
+                  href="/leistungen/service/"
+                  has-arrow
+                  is-transparent
+                  >Mehr erfahren</stylish-anchor
+                >
+              </variant-detail>
+            </flex-row>
+          </flex-row>
+        </section-container>
+      </section>
+      <section id="formung">
+        <section-container>
+          <flex-row>
+            <div>
+              <basic-header>
+                <h2 slot="captcha">Formung</h2>
+                <h1 slot="title">Zuerst werden Ideen geformt</h1>
+              </basic-header>
+              <basic-body right-pad
+                ><p>
+                  Adipisicing quibusdam doloremque officia unde numquam Odit nam
+                  enim maxime maxime sit magni! Natus dolorum rerum quos veniam
+                  fuga iusto. Repellendus explicabo eaque numquam quidem odit
+                  officia. Repellendus optio laboriosam Dolor quos amet saepe
+                  aperiam suscipit doloremque? Dolorem rerum aspernatur suscipit
+                  commodi perferendis. Nulla ipsum voluptatem autem fugit minima
+                  ad. Esse ullam sed est consequuntur tempora, ipsam. Laborum
+                  tempora enim.
+                </p></basic-body
+              >
+              <basic-footer>
+                <stylish-anchor has-anchor>Bild ändern</stylish-anchor>
+              </basic-footer>
+            </div>
+            <shadow-image src="./images/masqprint.png"></shadow-image>
+          </flex-row>
+          <basic-gap></basic-gap>
+          <flex-row media-query="1024px">
+            <flex-row>
+              <variant-detail right-pad>
+                <img
+                  slot="icon"
+                  src="https://dev.zaubrik.com/assets@v0.0.4/icons/outline/light-bulb.svg"
+                  alt=""
+                />
+                <h1 slot="title">Kreativer Austausch</h1>
+                <div slot="body">
+                  <p>
+                    Beginne zu sehen, wie Deine Idee Form annimmt. Erhalte
+                    unsere groben Entwürfe (Mockups) und sage uns, wie sie Dir
+                    gefällen.
+                  </p>
+                </div>
+                <stylish-anchor
+                  slot="anchor"
+                  href="/leistungen/service/"
+                  has-arrow
+                  is-transparent
+                  >Mehr erfahren</stylish-anchor
+                >
+              </variant-detail>
+              <variant-detail right-pad>
+                <img
+                  slot="icon"
+                  src="https://dev.zaubrik.com/assets@v0.0.4/icons/outline/light-bulb.svg"
+                  alt=""
+                />
+                <h1 slot="title">Kreativer Austausch</h1>
+                <div slot="body">
+                  <p>
+                    Beginne zu sehen, wie Deine Idee Form annimmt. Erhalte
+                    unsere groben Entwürfe (Mockups) und sage uns, wie sie Dir
+                    gefällen.
+                  </p>
+                </div>
+                <stylish-anchor
+                  slot="anchor"
+                  href="/leistungen/service/"
+                  has-arrow
+                  is-transparent
+                  >Mehr erfahren</stylish-anchor
+                >
+              </variant-detail>
+            </flex-row>
+            <flex-row>
+              <variant-detail right-pad>
+                <img
+                  slot="icon"
+                  src="https://dev.zaubrik.com/assets@v0.0.4/icons/outline/light-bulb.svg"
+                  alt=""
+                />
+                <h1 slot="title">Kreativer Austausch</h1>
+                <div slot="body">
+                  <p>
+                    Beginne zu sehen, wie Deine Idee Form annimmt. Erhalte
+                    unsere groben Entwürfe (Mockups) und sage uns, wie sie Dir
+                    gefällen.
+                  </p>
+                </div>
+                <stylish-anchor
+                  slot="anchor"
+                  href="/leistungen/service/"
+                  has-arrow
+                  is-transparent
+                  >Mehr erfahren</stylish-anchor
+                >
+              </variant-detail>
+              <variant-detail right-pad>
+                <img
+                  slot="icon"
+                  src="https://dev.zaubrik.com/assets@v0.0.4/icons/outline/light-bulb.svg"
+                  alt=""
+                />
+                <h1 slot="title">Kreativer Austausch</h1>
+                <div slot="body">
+                  <p>
+                    Beginne zu sehen, wie Deine Idee Form annimmt. Erhalte
+                    unsere groben Entwürfe (Mockups) und sage uns, wie sie Dir
+                    gefällen.
+                  </p>
+                </div>
+                <stylish-anchor
+                  slot="anchor"
+                  href="/leistungen/service/"
+                  has-arrow
+                  is-transparent
+                  >Mehr erfahren</stylish-anchor
+                >
+              </variant-detail>
+            </flex-row>
+          </flex-row>
+        </section-container>
+      </section>
     </main>
     <footer></footer>
   </body>
